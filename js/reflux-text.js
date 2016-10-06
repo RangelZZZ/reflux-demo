@@ -9,7 +9,6 @@ const action = Reflux.createActions(["getValue"]);
 const stores = Reflux.createStore({
 
     listenables: [action],
-
     onGetValue: function (value) {
         this.trigger(value);
     }
@@ -37,7 +36,7 @@ const Left = React.createClass({
     },
     render: function () {
         return <div>
-            <input type="text" ref="myInput" onKeyPress={this.handleChange}/>
+            <input type="text" ref="myInput" onChange={this.handleChange}/>
         </div>
     }
 
