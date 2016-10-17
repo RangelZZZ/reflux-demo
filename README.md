@@ -9,6 +9,6 @@ git clone https://github.com/RangelZZZ/reflux-demo
 ###执行第二个 Demo（Reflux+React 实现页面显示用户输入的文本内容）
 * 运行index.html
 
-###执行第二个 Demo（Reflux+React+Express 实现页面渲染hello world！）
-git * 执行npm start
+###执行第三个 Demo（Reflux+React+Express 实现页面渲染hello world！）
+* 执行npm start
 * 访问 localhost:3000

@@ -4,6 +4,7 @@ import React from 'react';
 import Reflux from 'reflux';
 import {render} from 'react-dom';
 
+
 const action = Reflux.createActions(['getHello']);
 
 const store = Reflux.createStore({
